@@ -1,0 +1,14 @@
+{"content": "Tôi sống ở Hà Nội","annotation":[{"label":["Location"],"points":[{"start":11,"end":16,"text":"Hà Nội"}]}]}
+{"content": "Tôi sống ở Huế","annotation":[{"label":["Location"],"points":[{"start":11,"end":14,"text":"Huế"}]}]}
+{"content": "Tôi sống ở TP.HCM","annotation":[{"label":["Location"],"points":[{"start":11,"end":16,"text":"TP.HCM"}]}]}
+{"content": "Anh ta sống ở Đà Nẵng","annotation":[{"label":["Location"],"points":[{"start":14,"end":20,"text":"Đà Nẵng"}]}]}
+{"content": "Họ sống ở Bình Dương","annotation":[{"label":["Location"],"points":[{"start":10,"end":19,"text":"Bình Dương"}]}]}
+{"content": "Cô ta đến từ Bình Định","annotation":[{"label":["Location"],"points":[{"start":13,"end":21,"text":"Bình Định"}]}]}
+{"content": "Chúng tôi đến từ Hải Phòng","annotation":[{"label":["Location"],"points":[{"start":17,"end":25,"text":"Hải Phòng"}]}]}
+{"content": "Anh ta đến từ Nam Định","annotation":[{"label":["Location"],"points":[{"start":14,"end":21,"text":"Nam Định"}]}]}
+{"content": "Họ sống ở Việt Nam","annotation":[{"label":["Location"],"points":[{"start":10,"end":17,"text":"Việt Nam"}]}]}
+{"content": "Cô ấy đến từ Pháp","annotation":[{"label":["Location"],"points":[{"start":13,"end":16,"text":"Pháp"}]}]}
+{"content": "Những người này đến từ Hà Tây","annotation":[{"label":["Location"],"points":[{"start":23,"end":28,"text":"Hà Tây"}]}]}
+{"content": "Không có ai sống ở Sài Gòn","annotation":[{"label":["Location"],"points":[{"start":19,"end":25,"text":"Sài Gòn"}]}]}
+{"content": "Không có ai đến từ Hà Bắc","annotation":[{"label":["Location"],"points":[{"start":19,"end":24,"text":"Hà Bắc"}]}]}
+{"content": "Những người này sống ở Tây Nguyên","annotation":[{"label":["Location"],"points":[{"start":23,"end":32,"text":"Tây Nguyên"}]}]}

@@ -1,0 +1,4 @@
+{"content": "Tôi sống ở Ha Noi","annotation":[{"label":["Location"],"points":[{"start":11,"end":16,"text":"Ha Noi"}]}]}
+{"content": "Tôi đến từ ở Sai Gon","annotation":[{"label":["Location"],"points":[{"start":13,"end":19,"text":"Sai Gon"}]}]}
+{"content": "Những người này đến từ Ha Tay","annotation":[{"label":["Location"],"points":[{"start":23,"end":28,"text":"Ha Tay"}]}]}
+{"content": "Không có ai sống ở Tay Nguyen","annotation":[{"label":["Location"],"points":[{"start":19,"end":28,"text":"Tay Nguyen"}]}]}
