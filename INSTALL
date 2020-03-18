@@ -1,0 +1,21 @@
+g++ -fPIC  -I.  -c -o tagger.lo tagger.cpp
+g++ -fPIC  -I.  -c -o utils.lo utils.cpp
+g++ -fPIC  -I.  -c -o eval.lo eval.cpp
+g++ -fPIC  -I.  -c -o iconv_utils.lo iconv_utils.cpp
+g++ -fPIC  -I.  -c -o context_id.lo context_id.cpp
+g++ -fPIC  -I.  -c -o connector.lo connector.cpp
+g++ -fPIC  -I.  -c -o nbest_generator.lo nbest_generator.cpp
+g++ -fPIC  -I.  -c -o writer.lo writer.cpp
+g++ -fPIC  -I.  -c -o string_buffer.lo string_buffer.cpp
+g++ -fPIC  -I.  -c -o param.lo param.cpp
+g++ -fPIC  -I.  -c -o tokenizer.lo tokenizer.cpp
+g++ -fPIC  -I.  -c -o char_property.lo char_property.cpp
+g++ -fPIC  -I.  -c -o dictionary.lo dictionary.cpp
+g++ -fPIC  -I.  -c -o libmecab.lo libmecab.cpp
+g++ -fPIC  -I.  -c -o viterbi.lo viterbi.cpp
+g++ -fPIC -c -I . -o example.o example.cpp
+g++ -o example example.o viterbi.lo tagger.lo utils.lo eval.lo iconv_utils.lo context_id.lo connector.lo nbest_generator.lo writer.lo string_buffer.lo param.lo tokenizer.lo char_property.lo dictionary.lo libmecab.lo -lstdc++ -lm 
+
+gcc -shared  -o libmecab.dll example.o viterbi.lo tagger.lo utils.lo eval.lo iconv_utils.lo context_id.lo connector.lo nbest_generator.lo writer.lo string_buffer.lo param.lo tokenizer.lo char_property.lo dictionary.lo libmecab.lo -lstdc++ -lm 
+
+
